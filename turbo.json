@@ -10,6 +10,16 @@
     "dev": {
       "persistent": true,
       "cache": false
+    },
+    "check": {
+      "dependsOn": ["^check"],
+      "inputs": ["src/**/*.{ts,tsx,js,jsx}", "biome.json"],
+      "outputs": []
+    },
+    "format": {
+      "dependsOn": ["^format"],
+      "inputs": ["src/**/*.{ts,tsx,js,jsx}"],
+      "outputs": ["src/**/*.{ts,tsx,js,jsx}"]
     }
   }
 }

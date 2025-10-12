@@ -25,10 +25,16 @@
       "cssModules": true
     }
   },
+  "files": {
+    "includes": ["src/**/*.{ts,tsx,js,jsx}"]
+  },
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "recommended": true,
+      "style": {
+        "noNonNullAssertion": "off"
+      }
     }
   }
 }
