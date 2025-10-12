@@ -1,0 +1,27 @@
+{
+  "name": "app-1",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "check": "biome check --write",
+    "dev": "rsbuild dev",
+    "format": "biome format --write",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@module-federation/enhanced": "^0.20.0",
+    "@module-federation/rsbuild-plugin": "^0.20.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.3",
+    "@rsbuild/core": "^1.5.14",
+    "@rsbuild/plugin-react": "^1.4.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.1",
+    "typescript": "^5.9.3"
+  }
+}
