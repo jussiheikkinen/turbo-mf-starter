@@ -8,7 +8,6 @@ const NavBar = React.lazy(() => import('navbar/App'));
 const App = () => {
   return (
     <div className="content">
-      <h1>App Shell</h1>
       <React.Suspense fallback={<div>Loading...</div>}>
         <App1 />
         <AppBar />
