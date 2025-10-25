@@ -1,8 +1,8 @@
 // Import global styles
 import '../src/styles/globals.css';
 
-export { Button } from '../components/ui/button';
+// Export all UI components
+export * from '../components/ui';
+
 // Re-export utilities
 export * from './utils';
-// Component library exports
-export { cn } from './utils';

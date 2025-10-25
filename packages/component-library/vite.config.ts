@@ -9,6 +9,7 @@ export default defineConfig({
     tailwindcss(),
     dts({
       insertTypesEntry: true,
+      include: ['lib/**/*.ts', 'components/**/*.tsx', 'components/**/*.ts'],
     }),
   ],
   resolve: {

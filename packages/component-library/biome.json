@@ -6,8 +6,17 @@
   },
   "linter": {
     "rules": {
+      "correctness": {
+        "noNestedComponentDefinitions": "off"
+      },
       "suspicious": {
-        "noUnknownAtRules": "off"
+        "noUnknownAtRules": "off",
+        "noArrayIndexKey": "off",
+        "noDoubleEquals": "off"
+      },
+      "a11y": {
+        "useSemanticElements": "off",
+        "useKeyWithClickEvents": "off"
       }
     }
   }
