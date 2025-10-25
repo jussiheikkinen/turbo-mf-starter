@@ -1,0 +1,14 @@
+{
+  "root": false,
+  "extends": "//",
+  "files": {
+    "includes": ["src/**/*", "lib/**/*", "components/**/*"]
+  },
+  "linter": {
+    "rules": {
+      "suspicious": {
+        "noUnknownAtRules": "off"
+      }
+    }
+  }
+}
