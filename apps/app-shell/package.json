@@ -11,6 +11,7 @@
   "dependencies": {
     "@module-federation/enhanced": "^0.20.0",
     "@module-federation/rsbuild-plugin": "^0.20.0",
+    "component-library": "workspace:*",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
